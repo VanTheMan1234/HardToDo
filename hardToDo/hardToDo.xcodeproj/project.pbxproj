@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		61F72CC923CA1139004FAE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F72CC823CA1139004FAE96 /* AppDelegate.swift */; };
 		61F72CCB23CA1139004FAE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F72CCA23CA1139004FAE96 /* ViewController.swift */; };
-		61F72CCE23CA1139004FAE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F72CCC23CA1139004FAE96 /* Main.storyboard */; };
 		61F72CD023CA113A004FAE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F72CCF23CA113A004FAE96 /* Assets.xcassets */; };
 		61F72CD323CA113A004FAE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F72CD123CA113A004FAE96 /* LaunchScreen.storyboard */; };
 		61F72CDE23CA113A004FAE96 /* hardToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F72CDD23CA113A004FAE96 /* hardToDoTests.swift */; };
@@ -37,7 +36,6 @@
 		61F72CC523CA1139004FAE96 /* hardToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hardToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F72CC823CA1139004FAE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61F72CCA23CA1139004FAE96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61F72CCD23CA1139004FAE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61F72CCF23CA113A004FAE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61F72CD223CA113A004FAE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61F72CD423CA113A004FAE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				61F72CC823CA1139004FAE96 /* AppDelegate.swift */,
 				61F72CCA23CA1139004FAE96 /* ViewController.swift */,
-				61F72CCC23CA1139004FAE96 /* Main.storyboard */,
 				61F72CCF23CA113A004FAE96 /* Assets.xcassets */,
 				61F72CD123CA113A004FAE96 /* LaunchScreen.storyboard */,
 				61F72CD423CA113A004FAE96 /* Info.plist */,
@@ -231,7 +228,6 @@
 			files = (
 				61F72CD323CA113A004FAE96 /* LaunchScreen.storyboard in Resources */,
 				61F72CD023CA113A004FAE96 /* Assets.xcassets in Resources */,
-				61F72CCE23CA1139004FAE96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		61F72CCC23CA1139004FAE96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61F72CCD23CA1139004FAE96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61F72CD123CA113A004FAE96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZB6R94XP6K;
 				INFOPLIST_FILE = hardToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZB6R94XP6K;
 				INFOPLIST_FILE = hardToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
